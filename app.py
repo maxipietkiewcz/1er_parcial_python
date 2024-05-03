@@ -34,6 +34,8 @@ calificaciones = [
 # creamos el dataframe
 df = pd.DataFrame(calificaciones, columns=["nombre", "matematicas", "ciencias", "historia"])
 print(df)
+print()
+print()
 
 
 #Calcular el promedio de calificaciones para cada asignatura y mostrarlo.
@@ -44,7 +46,6 @@ print()
 
 # Encuentra a los estudiantes que tienen las calificaciones más altas en cada asignatura 
 # y mostralos junto con sus respectivas calificaciones. 
-
 calificaciones_maximas_por_asignatura = df.max()
 
 print("Estudiantes con las calificaciones más altas por asignatura:")
@@ -56,7 +57,6 @@ print()
 
 # Calcular el porcentaje de estudiantes que aprobaron cada asignatura (con una
 # calificación igual o superior a 60) y mostrar los resultados.
-
 porcentaje_aprobados_por_asignatura = (df.drop('nombre', axis=1) >= 60).mean() * 100
 
 print("Porcentaje de estudiantes que aprobaron cada asignatura:")

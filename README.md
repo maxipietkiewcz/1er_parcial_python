@@ -6,4 +6,4 @@
     - pip install matplotlib
     - pip install pandas
 
-3- ejecuta el codigo en "app.py"
+3- ejecuta el codigo en "app.py" o en la consola utilizando "python .\app.py "
