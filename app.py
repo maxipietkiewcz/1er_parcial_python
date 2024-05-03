@@ -43,6 +43,7 @@ print("Promedio matematicas: ",df['matematicas'].mean())
 print("Promedio ciencias: ",df['ciencias'].mean())
 print("Promedio historia: ", df['historia'].mean())
 print()
+print()
 
 # Encuentra a los estudiantes que tienen las calificaciones más altas en cada asignatura 
 # y mostralos junto con sus respectivas calificaciones. 
@@ -74,6 +75,7 @@ df_promedio = df[['nombre', 'promedio']]
 print("DataFrame con el nombre del estudiante y su promedio de notas:")
 print(df_promedio)
 print()
+
 
 # Crear un gráfico de barras 
 plt.bar(df_promedio['nombre'], df_promedio['promedio'], color='skyblue') # color de la barra
