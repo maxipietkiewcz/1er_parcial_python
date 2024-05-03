@@ -43,7 +43,6 @@ print("Promedio matematicas: ",df['matematicas'].mean())
 print("Promedio ciencias: ",df['ciencias'].mean())
 print("Promedio historia: ", df['historia'].mean())
 print()
-print()
 
 # Encuentra a los estudiantes que tienen las calificaciones más altas en cada asignatura 
 # y mostralos junto con sus respectivas calificaciones. 

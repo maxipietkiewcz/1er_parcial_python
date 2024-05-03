@@ -1,6 +1,7 @@
 # 1° Parcial: Python para ciencias de datos
 
 1 - Clona el repositorio en la carpeta que desees
+
 2 - Instala las dependecias correspondientes
 
     - pip install matplotlib
